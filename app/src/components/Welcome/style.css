@@ -1,0 +1,28 @@
+
+.landing-page section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.landing-page section h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.landing-page section hr {
+  width: 100px;
+  color: #ffb800;
+  background-color: #ffb800;
+  height: 2px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
+.landing-page a {
+  text-decoration: none;
+  color: black;
+  text-emphasis: 1em;
+}
