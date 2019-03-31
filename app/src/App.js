@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import './App.css';
 import Header from './components/Header'
 import Welcome from './components/Welcome'
+import dataProtection from './components/dataProtection'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
 
           <Switch>
             <Route exact path="/" component={Welcome} />
+            <Route exact path="DataProtection" component={dataProtection} />
 
           </Switch>
 
