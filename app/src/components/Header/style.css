@@ -1,113 +1,165 @@
-.page-header {
-  position:fixed;
-  top:0;
-  width:100%;
-  margin: 0px auto;
-  max-width: 1200px;
-  height: 60px;
-  z-index:100;
-  background-color: white;
-  color: black;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  display: grid;
-  grid-template-columns: auto auto 100px;
+.menu {
+  width: 280px;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background: #0169cb;
+  overflow-y: auto;
+  padding: 0 0 1rem 0;
+  font-family: "Roboto", sans-serif;
 }
 
-header .logo {
-  margin: 10px;
-  margin-left: 12px;
-}
-
-header nav ul {
+nav ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
-header nav ul li {
+nav li {
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
-header nav a {
+nav a {
   display: inline-block;
-  color: black;
+  color: white;
   text-decoration: none;
-  padding-top: 50px;
-  font-size: 11px;
-  font-weight: bold;
+  padding-top: 20px;
   padding-bottom: 20px;
-  transition: .25s;
-  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  transition: 0.25s;
+  font-family: "Roboto", sans-serif;
 }
 
-header nav a:hover {
+nav a:hover {
   color: #aaa;
 }
 
-header .navigation {
-  padding-right: 10px;
+.menu__list {
+  list-style: none;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-header .social ul {
+.menu__item {
+  padding: 0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu__item__icon {
+  padding: 0;
+  width: 30px;
   height: 30px;
-  border-left: solid 1px white;
-  display: inline-block;
-  padding-left: 5px;
-  padding-top: 25px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: all 300ms ease;
 }
 
-header .social ul li {
-  display: inline-block;
-  padding-left: 6px;
-  padding-right: 6px;
+.menu__item__link {
+  text-decoration: none;
+  display: flex;
+  font-size: 0.85rem;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.04rem;
+  color: blue;
+  transition: all 300ms ease;
+  font-weight: 300;
+  padding: 0.5rem 1.2rem;
+  position: relative;
 }
 
-header .social a {
-  transition: 0.25s;
+.menu__item__link:hover {
+  color: #fff;
 }
 
-header .social a:hover {
-  opacity: 0.6;
+.menu__item__icon {
+  color: black;
 }
 
-header .social ul li img {
-  width: 28px;
-  height: 28px;
+.menu__item__title {
+  flex-basis: calc(100% - 60px);
+  text-align: left;
+  font-family: "Roboto", sans-serif;
 }
 
-
-@media screen and (max-width: 640px) {
-  body .page-header {
-    grid-template-columns: auto auto;
-  }
-
-  body header .logo {
-    display: none;
-  }
-
-  body header .navigation {
-    width: 100%;
-    justify-self: start;
-  }
-
-  body header .social {
-    width: 100%;
-    justify-self: end;
-    text-align: right;
-    padding-right: 10px;
-  }
-
-  body header .social ul {
-    border-left: none;
-  }
+.menu__item__link {
+  opacity: 1;
+  height: 40px;
+  font-size: 0.8rem;
 }
 
-@media screen and (max-width: 400px) {
-  body header nav ul li {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
+.menu__header {
+  background: blue;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu__header__title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu__header__description {
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+
+footer {
+  background: blue;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .contact {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: black;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-content .footer-last {
+  text-align: right;
+}
+
+.footer-content p {
+  margin: 0px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px #555;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
 }
