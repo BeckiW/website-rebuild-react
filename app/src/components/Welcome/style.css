@@ -26,19 +26,6 @@
   text-emphasis: 1em;
 }
 
-.hero {
-  background-position: center;
-  padding-top: -20px;
-  background-repeat: no-repeat;
-  padding-left: 3%;
-  /* background-size: cover;
-  position: relative;
-  height: 85vh;
-  top: 75px;
-  width: 90.5%;
-  margin: 0 auto; */
-}
-
 h1 {
   font-size: 30px;
   font-weight: 600;
