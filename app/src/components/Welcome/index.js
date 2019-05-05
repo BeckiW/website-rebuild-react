@@ -1,18 +1,13 @@
 import React, { Component } from "react";
 import "./style.css";
+import Hero from "../Hero";
 
 class Welcome extends React.Component {
   render() {
     return (
-      <div className="content-padding">
-        <div class="hero" />
-        <img
-          class="hero"
-          src="/data-protection-faqs-519801490.jpg"
-          alt="Logo"
-        />
-
-        <div>
+      <div>
+        <Hero image={"/data-protection-faqs-519801490.jpg"} alt={"Logo"} />
+        <div className="content-padding text">
           <h1>Welcome!</h1>
 
           <section className="welcome-section">
