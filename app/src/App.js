@@ -4,7 +4,6 @@ import "./App.css";
 import Menu from "./components/Header";
 import Welcome from "./components/Welcome";
 import dataProtection from "./components/dataProtection";
-import Banner from "./components/Banner";
 
 class App extends Component {
   render() {
