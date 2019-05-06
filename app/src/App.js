@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import "./App.css";
 import Menu from "./components/Header";
 import Welcome from "./components/Welcome";
-import dataProtection from "./components/dataProtection";
+import DataProtection from "./components/dataProtection";
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
           <Welcome />
           <Switch>
             <Route exact path="/" component={Welcome} />
-            <Route exact path="DataProtection" component={dataProtection} />
+            <Route exact path="data_protection" component={DataProtection} />
           </Switch>
         </div>
       </Router>

@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import Hero from "../Hero";
 
-class dataProtection extends React.Component {
+class DataProtection extends React.Component {
   render() {
     return (
       <div className="landing-page">
-        <Hero image={"/data-protection-faqs-519801490.jpg"} alt={"Logo"} />
+        <Hero image={"/20181123-shutterstock_619615334.jpg"} alt={"data"} />
 
         <div>
-          <h1>Welcome!</h1>
+          <h1>What is Data Protection?</h1>
 
           <section className="welcome-section content-padding">
             <span>
@@ -37,4 +37,4 @@ class dataProtection extends React.Component {
   }
 }
 
-export default dataProtection;
+export default DataProtection;

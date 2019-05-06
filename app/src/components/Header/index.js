@@ -3,6 +3,7 @@ import "./style.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStroopwafel } from "@fortawesome/free-solid-svg-icons";
+import DataProtection from "../dataProtection";
 
 class Menu extends React.Component {
   render() {
@@ -25,7 +26,7 @@ class Menu extends React.Component {
               <a href="/">Welcome</a>
             </li>
             <li className="menu__item">
-              <a href="/my-projects/">What is Data Protection?</a>
+              <a href="/data_protection/">What is Data Protection?</a>
             </li>
             <li className="menu__item">
               <a href="/my-projects/">What is GDPR?</a>
