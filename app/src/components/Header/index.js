@@ -14,71 +14,76 @@ class Menu extends React.Component {
           <div className="menu__header__description">
             Data Protection Specialist
           </div>
-          <div classname="logo">
-            <img src="/ShepardConsultingLogoV2.png" alt="Logo" />
-          </div>
+
+          <img className="logo" src="/ShepardConsultingLogoV2.png" alt="Logo" />
         </div>
-        <nav>
-          <ul className="menu__list">
-            {" "}
-            <li className="menu__item">
-              <FontAwesomeIcon icon="stroopwafel" />
-              <a href="/">Welcome</a>
-            </li>
-            <li className="menu__item">
-              <a href="/data_protection/">What is Data Protection?</a>
-            </li>
-            <li className="menu__item">
-              <a href="/my-projects/">What is GDPR?</a>
-            </li>
-            <li className="menu__item">
-              <a href="/my-projects/">Services</a>
-            </li>
-            <li className="menu__item">
-              <a href="/my-projects/">Consultancy</a>
-            </li>
-            <li className="menu__item">
-              <a href="/my-projects/">Freedom of Information</a>
-            </li>
-            <li className="menu__item">
-              <a href="/my-projects/">News</a>
-            </li>
-            {/* <li className="menu__item">
+        <div className="container">
+          <nav>
+            <ul className="menu__list">
+              {" "}
+              <li className="menu__item">
+                <FontAwesomeIcon icon="stroopwafel" />
+                <a href="/">Welcome</a>
+              </li>
+              <li className="menu__item">
+                <a href="/data_protection/">What is Data Protection?</a>
+              </li>
+              <li className="menu__item">
+                <a href="/my-projects/">What is GDPR?</a>
+              </li>
+              <li className="menu__item">
+                <a href="/my-projects/">Services</a>
+              </li>
+              <li className="menu__item">
+                <a href="/my-projects/">Consultancy</a>
+              </li>
+              <li className="menu__item">
+                <a href="/my-projects/">Freedom of Information</a>
+              </li>
+              <li className="menu__item">
+                <a href="/my-projects/">News</a>
+              </li>
+              {/* <li className="menu__item">
               <a href="/contact-me/">Contact</a>
             </li> */}
-          </ul>
-        </nav>
-
-        <footer>
-          <div className="footer-content">
-            <div>
-              <p className="contact">
-                {/* Charlotte Shepard <br /> */}
-                <a href="/contact-me/" title="Contact Becki Wordsworth">
-                  Contact Us
-                </a>
-              </p>
-            </div>
-
-            <div className="social">
-              <ul>
-                <li>
-                  <a href="https://twitter.com/BeckiWordsworth" target="_blank">
-                    <img src="/twitter-64.png" />
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <footer>
+            <div className="footer-content">
+              <div>
+                <p className="contact">
+                  {/* Charlotte Shepard <br /> */}
+                  <a href="/contact-me/" title="Contact Becki Wordsworth">
+                    Contact Us
                   </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/beckiwordsworth/"
-                    target="_blank"
-                  >
-                    <img src="/linkedin-64.png" />
-                  </a>
-                </li>
-              </ul>
+                </p>
+              </div>
+
+              <div className="social">
+                <ul>
+                  <li>
+                    <a
+                      href="https://twitter.com/BeckiWordsworth"
+                      target="_blank"
+                    >
+                      <img src="/twitter-64.png" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/beckiwordsworth/"
+                      target="_blank"
+                    >
+                      <img src="/linkedin-64.png" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </div>
     );
   }
