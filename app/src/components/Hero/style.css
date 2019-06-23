@@ -1,18 +1,10 @@
 .hero {
   background-position: center;
-  padding-top: -20px;
   background-repeat: no-repeat;
-  padding-left: 19.5%;
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   margin-top: -9%;
-  /* background-size: cover;
-    position: relative;
-    height: 85vh;
-    top: 75px;
-    width: 90.5%;
-    margin: 0 auto; */
 }

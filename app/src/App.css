@@ -4,9 +4,10 @@
   margin: 60px auto 0px;
   max-width: 1200px;
   background-color: white;
+  margin-left: 280px;
 }
 
-.content-padding {
+/* .content-padding {
   padding-left: 4%;
   padding-right: 5%;
-}
+} */

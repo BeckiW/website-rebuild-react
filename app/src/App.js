@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Router>
         <div className="page-container">
-          <Menu />
+          {/* <Menu /> */}
           <Welcome />
           <Switch>
             <Route exact path="/" component={Welcome} />
